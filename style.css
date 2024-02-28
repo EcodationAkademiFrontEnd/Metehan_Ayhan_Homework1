@@ -1,0 +1,79 @@
+/* Body için arka plan rengi */
+body {
+  background-color: #89e7eb;
+}
+
+/* Giriş formu için ana div */
+.center2 {
+  width: 400px;
+  height: 450px;
+  margin: 10% auto;
+  background-color: #ffffff;
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column; /* Elemanları dikey hizalar */
+  justify-content: center; /* Yatayda merkezler */
+  align-items: center; /* Dikeyde merkezler */
+}
+
+/* Kayıt formu için ana div */
+.center1 {
+  width: 350px;
+  height: 400px;
+  margin: 10% auto;
+  background-color: rgb(255, 255, 255);
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column; /* Elemanları dikey hizalar */
+  justify-content: center; /* Yatayda merkezler */
+  align-items: center; /* Dikeyde merkezler */
+}
+
+/* Başlık */
+h1 {
+  text-align: center;
+  font-style: inherit;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+/* Açıklama */
+.p {
+  color: hsl(0, 2%, 32%);
+  font-style: italic;
+  text-align: center;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+/* Input alanları ve butonlar */
+.username input,
+.password input,
+.login button,
+.name input,
+.surname input,
+.E-mail input,
+.sign-up button {
+  width: 80%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  margin-left: 25px;
+}
+
+/* Giriş ve Kayıt linkleri */
+.login,
+.sign-up {
+  width: 107%;
+  font-size: large;
+  font: 1em sans-serif;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+/* Linklerin stilini ayarla */
+.center1 a,
+.center2 a {
+  margin-left: 8%;
+}
